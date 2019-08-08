@@ -1,0 +1,16 @@
+Package: sBGmodel
+Title: Estimates the Customer Lifetime Value using the sBG model.
+Version: 1.0
+Authors@R: c(
+  person("Magdalena", "Radinger", email = "magda.radinger@gmail.com", role = c("cre", "aut")),
+  person("Katrin", "Leberfinger", email = "k-leberfinger@gmx.de", role = "aut"),
+  person("Hilda", "Kosorus", email = "hilda.kosorus@gmail.com", role = "aut")
+  )
+Description: Estimates Customer Lifetime Value for contractual discrete transactions using the sBG model. Calculation is based on the paper 'Fitting the sBG Model to Multi-Cohort Data' from Fader and Hardie.
+Depends: R (>= 3.5)
+Imports: dplyr, Metrics, gsl, tidyr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
+RoxygenNote: 6.1.1
